@@ -14,8 +14,13 @@ npx hardhat ignition deploy ./ignition/modules/Lock.ts
 
 
 git init
-git add README.md
+git add .
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/VictorOgbebor/BaseChain.git
+git push -u origin main
+-------
+git add .
+git remote add origin https://github.com/VictorOgbebor/BaseChain.git
+git branch -M main
 git push -u origin main
